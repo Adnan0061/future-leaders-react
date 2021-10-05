@@ -6,6 +6,7 @@ import Courses from './components/Courses/Courses';
 import Header from './components/Header/Header';
 import Footer from './components/Footer/Footer';
 import Contact from './components/Contact/Contact';
+import NotFound from './components/NotFound/NotFound'
 
 function App() {
   return (
@@ -27,6 +28,9 @@ function App() {
           </Route>
           <Route path='/contact'>
             <Contact></Contact>
+          </Route>
+          <Route path='*'>
+            <NotFound></NotFound>
           </Route>
         </Switch>
         <Footer></Footer>
