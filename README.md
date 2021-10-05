@@ -1,6 +1,6 @@
 # Future Leader - Online Course for Future Leaders
 
-Live site:
+Live site: [click here](https://online-course-site-assignment-9.netlify.app/)
 
 some important points
 * This is created with react bootstrap and font awesome
