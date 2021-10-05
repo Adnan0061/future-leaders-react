@@ -1,0 +1,52 @@
+.hero{
+    background: url('https://preview.colorlib.com/theme/educature/img/header-bg.png.webp');
+    background-color: brown;
+}
+.color-background{
+    background-color: cornsilk;
+}
+
+.feature-item{
+    background-color: cornsilk!important;
+}
+
+.feature-item:hover{
+    background-color: whitesmoke!important;
+    box-shadow: 0 .125rem .25rem rgba(black, .075);
+}
+/* 
+            <div>
+                <Container className='py-5'>
+                    <Row>
+                        <Col md={6} className='p-5 d-flex flex-column justify-content-center align-items-start'>
+                            <h1 className='text-start p-3'>This is Why<br/>We have Solid Idea</h1>
+                            <p className='.text-muted text-start p-3'>There is a moment in the life of any aspiring astronomer that it is time to buy that first telescope. It’s exciting to think about setting up your own viewing station. In the life of any aspiring astronomer that it is time to buy that first telescope. It’s exciting to think about setting up your own viewing station.</p>
+                            <Button className='m-3' variant="warning" as={Link} to={'/courses'}>Search Courses</Button>
+                        </Col>
+                        <Col md={6} className='p-5'>
+                        <div className='d-flex'>
+                            <div>
+                                <ButtonGroup vertical className='mx-2'>
+                                    <Button className='my-2'>Button</Button>
+                                    <Button className='my-2'>Button</Button>
+                                    <Button className='my-2'>Button</Button>
+                                    <Button className='my-2'>Button</Button>
+                                    <Button className='my-2'>Button</Button>
+                                </ButtonGroup>
+                            </div>
+                            <div>
+                                <ButtonGroup vertical>
+                                    <Button className='my-2'>Button</Button>
+                                    <Button className='my-2'>Button</Button>
+                                    <Button className='my-2'>Button</Button>
+                                    <Button className='my-2'>Button</Button>
+                                    <Button className='my-2'>Button</Button>
+                                </ButtonGroup>
+                            </div>
+                        </div>
+                        </Col>
+                    </Row>
+                </Container>
+            </div>
+
+ */
