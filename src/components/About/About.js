@@ -14,10 +14,9 @@ const About = () => {
         {name: 'Lena Keller', designation: 'Sr. Instructor Graphic Design', img:'https://preview.colorlib.com/theme/educature/img/faculty/xf4.jpg.pagespeed.ic.Q1o_v6uasc.webp', about: 'If you are looking at blank cassettes on the web, you may be very confused at the difference in price.', facebook: 'https://www.facebook.com/groups/288111895977592', insta:'https://www.instagram.com/programminghero/', linkedIn:'https://www.linkedin.com/company/programminghero/'},
     ]
     return (
-        <div className='body'>
-
+        <div className='body mt-3'>
             {/* Hero section */}
-            <div className='hero  py-5'>
+            <div className='hero py-5'>
             <Container className='hero-container py-5 my-5'>
                 <h1 className='py-3 text-light' style={{fontSize: '56px'}}>We help Students to Learn and Grow<br/>become Future Leaders</h1>
                 <p className='w-50 mx-auto py-3 fs-5 text-light'>In the history of modern astronomy, there is probably no one greater leap forward than the building and launch of the space telescope.</p>

@@ -7,10 +7,16 @@ import Header from './components/Header/Header';
 import Footer from './components/Footer/Footer';
 import Contact from './components/Contact/Contact';
 import NotFound from './components/NotFound/NotFound'
+import Register from './components/Register/Register';
+import AuthProvider from './context/AuthProvider';
+import MyAccount from './components/MyAccount/MyAccount';
+import PrivateRoute from './PrivateRoute/PrivateRoute';
+import CourseDetails from './components/CourseDetails/CourseDetails';
 
 function App() {
   return (
     <div className="App">
+    <AuthProvider>  
       <Router>
         <Header></Header>
         <Switch>
@@ -26,8 +32,17 @@ function App() {
           <Route path='/courses'>
             <Courses></Courses>
           </Route>
+          <Route path="/course/:courseDetails">
+            <CourseDetails></CourseDetails>
+          </Route>
           <Route path='/contact'>
             <Contact></Contact>
+          </Route>
+          <PrivateRoute path='/account'>
+            <MyAccount></MyAccount>
+          </PrivateRoute>
+          <Route path='/register'>
+            <Register></Register>
           </Route>
           <Route path='*'>
             <NotFound></NotFound>
@@ -35,6 +50,7 @@ function App() {
         </Switch>
         <Footer></Footer>
       </Router>
+    </AuthProvider>
     </div>
   );
 }
